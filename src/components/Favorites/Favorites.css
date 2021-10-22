@@ -1,0 +1,50 @@
+
+.favMovie{
+    display: inline;
+    padding: 0;
+}
+
+.introText{
+    background-color: rgba(0,0,0,.5);
+    padding: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.cnt {
+    padding-top: 10px;
+}
+
+.elementContainer{
+    justify-content: center;
+}
+
+.listFavorites{
+    display: inline-block;
+}
+
+.completeContainer{
+    display: inline-block;
+    margin: 20px;
+   background-color: rgba(0,0,0,.5);
+   padding: 20px;
+   border-radius: 10px;
+}
+
+.linkContainer{
+    display: grid;
+}
+
+.linkDetails{
+    margin: auto;
+    margin-top: 5px;
+}
+
+.middle{
+    margin: auto;
+    margin-top: 5px;
+}
+
+.buttonDelete{
+    margin-top: 5px;
+}
