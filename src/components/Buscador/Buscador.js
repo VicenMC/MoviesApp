@@ -22,7 +22,6 @@ export class Buscador extends Component {
   }
 
   render() {
-    const { title } = this.state;
     return (
       <body>
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
@@ -35,7 +34,7 @@ export class Buscador extends Component {
     <input type="text" class="searchInput" onChange={(e) => this.handleChange(e)} placeholder="Type to Search..." />
   </div>
         </form>
-        {this.props.movies === undefined ? <h1></h1> : 
+        {this.props.movies === undefined ? <h1>No movies found</h1> : 
         <div className="movieSearchContainer">
         <ul className="moviesDisplay">
          {

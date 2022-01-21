@@ -20,7 +20,7 @@ export default function NavBar() {
                     <NavLink className="linkTo" to="/favs" >Favorites</NavLink>
                     </li>
                     <li className="list-item">
-                    <a className="linkTo" href="https://github.com/VicenMC" target="_blank">My Github</a>
+                    <a className="linkTo" href="https://github.com/VicenMC">My Github</a>
                     </li>
                 </ul>
                 </div>
